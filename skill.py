@@ -62,46 +62,31 @@ def BFS(root):
             if x.right:
                 queue.append(x.right)
     return something.
+    
+    
+    
+subsets: DFS
+def subsets(num):
+  num.sort()
+  subsetshelper([], num, 0)
+  
+def subsetshelper(path, num, pos):
+  #outputsomething
+  for i in range(pos, len(num)):
+    #unique subsets if i != pos and num[i] == num[i-1]:continue
+    path.append something
+    subsetshelper(path, num, pos + 1)
+
+
+permutations
+  if length == ..:
+    add
+ for i in range():
+    if list.contain(num[i]):  #visited[i] == True 
+      continue
+
+
+
+
 '''
 
-class TreeNode(object):
-     def __init__(self, x):
-         self.val = x
-         self.left = None
-         self.right = None
-
-def flatten(root):
-    """
-    :type root: TreeNode
-    :rtype: void Do not return anything, modify root in-place instead.
-    """
-    if not root:
-        return
-    if root.val == 5 or root.val == 3:
-        aaa=1
-    if root.left:
-        flatten(root.left)
-
-    if root.right:
-        flatten(root.right)
-    left = root.left
-    right = root.right
-    root.left = None
-    if left:
-        root.right = left
-        if right:
-            root.right.right = right
-    else:
-        if right:
-            root.right = right
-
-root = TreeNode(1)
-root1 = TreeNode(2)
-root2 = TreeNode(3)
-root3 = TreeNode(4)
-root4 = TreeNode(5)
-root.left = root1
-root1.left = root2
-root1.right = root3
-root2.left = root4
-flatten(root)
