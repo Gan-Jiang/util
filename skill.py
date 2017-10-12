@@ -86,7 +86,7 @@ permutations
       continue
 
 
-
+quadratic function [-b/2a,（4ac-b²）/4a]
 
 '''
 
