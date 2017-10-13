@@ -87,6 +87,8 @@ permutations
 
 
 quadratic function [-b/2a,（4ac-b²）/4a]
-
+2d to 1d: (x, y) -> (x*m + y)    x = 1d/m   y = 1d%m
+#并查集 （1） 判断是不是一个集合 （2） 合并 （3） 判断环
+#trie (1) 一个一个字符遍历 （2） 节省空间 （3）regular expression
 '''
 
