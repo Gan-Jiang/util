@@ -47,7 +47,7 @@ def least_significant_bit(n):
     :param n:
     :return:
     '''
-    return n & (~n)
+    return n & (-n)
 
 def turn_on_all_bits_m(n, m):
     '''
